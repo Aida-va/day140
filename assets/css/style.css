@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Merriweather+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap");
+@import url("./reset.css");
+
+body {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-family: "Merriweather Sans", sans-serif;
+  background-color: #e5e5e5;
+}
+.container {
+  width: 952px;
+  height: 504px;
+  margin: 70px auto;
+  display: flex;
+  background: #e5e5e5;
+  box-sizing: border-box;
+}
+.box {
+  width: 343px;
+  height: 503px;
+  background-color: #fff;
+  border-radius: 10px 10px 0px 0px;
+}
+.figure {
+  width: 343px;
+  height: 192px;
+  border-radius: 10px 10px 0px 0px;
+}
+.box-body .title h1 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  width: 182px;
+  margin-top: 30px;
+  margin-left: 80px;
+}
+.box-body .date {
+  margin-top: 10px;
+  margin-left: 84px;
+}
+.box-body .date .lable {
+  width: 22px;
+  height: 22px;
+}
+.box-body .date span {
+  color: #000;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+}
+.box-body .description p {
+  width: 214px;
+  height: 42px;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 64px;
+  text-align: center;
+}
+.box-body button {
+  width: 233px;
+  height: 65px;
+  margin-top: 30px;
+  margin-left: 54px;
+  background: #111024;
+  border-radius: 5px;
+  text-align: center;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-weight: 500;
+  font-size: 18px;
+}
+.container .box1 {
+  width: 389px;
+  height: 241px;
+  background-color: #000;
+  border-radius: 10px;
+  margin-left: 78px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+.container .box1 h1 {
+  color: #fff;
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 22px;
+}
+.container .box1 p {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+  margin-top: 30px;
+  width: 191px;
+  height: 52px;
+}
+.container .box1 h3 {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 21px;
+  text-decoration-line: underline;
+  color: #867bff;
+  margin-top: 30px;
+  width: 116px;
+  height: 21px;
+}
+.container .box2 {
+  position: absolute;
+  width: 366px;
+  height: 94px;
+
+  margin-left: 550px;
+  margin-top: 400px;
+}
+.container .box2 .box-head2 h1 {
+  font-family: "Merriweather";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  color: #111024;
+}
+.container .box2 .box-body2 .wrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-top: 15px;
+  gap: 5px;
+}
+.box2 .box-body2 .wrapper .first {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 20px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.box2 .box-body2 .wrapper .second {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 20px;
+  background: #ffffff;
+  border-radius: 25px;
+}
+.box2 .box-body2 .wrapper .third {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 15px 20px;
+  background: #ffffff;
+  border-radius: 25px;
+}
